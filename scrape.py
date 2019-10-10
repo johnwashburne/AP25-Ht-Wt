@@ -1,5 +1,6 @@
 from selenium import webdriver
 import bs4 as bs
+import pickle
 
 driver = webdriver.Chrome()
 
@@ -37,7 +38,7 @@ for link in links:
             weight = int(s.split(' ')[0])
             weights.append(weight)
 
-print(sum(heights)/len(heights))
-print(sum(weights)/len(weights))
+pickle.dump(heights, open("heights.p", "wb"))
+pickle.dump(weights, open("weights.p", "wb"))
     
     
