@@ -8,4 +8,5 @@ To give the reader a better frame of reference, I used data from the [National H
 Now that there was comparative data, the graphs were much more readable.
 ![Heights](heights.png)
 ![Weights](weights.png)
+\
 As you can see, with regards to height, football players on the top teams in the NCAA are notably taller than the average American male, as the centers of the two distributions differ by around *Number*. Weight is a bit more interesting though, with more of a bimodal distribution. The bottom half of the distribution, which can be assumed to be the skill players, is more in line with the general population distribution. Meanwhile, the top half of the football distribution (the lineman), clearly stands apart from the general population, which makes sense, as it is a poition that typically weights size more heavily in recruitment than other poitions.
