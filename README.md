@@ -6,4 +6,5 @@ After forming these lists, I plotted the data using plot.ly to histograms, one f
 To give the reader a better frame of reference, I used data from the [National Health Statistics Reports](https://www.cdc.gov/nchs/data/nhsr/nhsr122-508.pdf), published by the CDC. This contains the mean and the standard deviation of both height and weight of 20-39 year old American Males. I then used the numpy.generate.normal module to generate 3020 heights and weights to simulate what the dataset might look like if the subjects were randomly generated. \
 \
 Now that there was comparative data, the graphs were much more readable.
-\
+![Heights](heights.png)
+![Weights](weights.png)
